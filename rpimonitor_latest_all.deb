@@ -1,0 +1,1009 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>RPi-Monitor-deb/packages at master · XavierBerger/RPi-Monitor-deb · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="XavierBerger/RPi-Monitor-deb" name="twitter:title" /><meta content="RPi-Monitor-deb - Debian packaging for RPi-Monitor. RPi-Monitor always keep an eye on your Raspberry Pi and can give you the current status and the history of resources usages in a nice looking and in" name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/4228268?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/4228268?v=3&amp;s=400" property="og:image" /><meta content="XavierBerger/RPi-Monitor-deb" property="og:title" /><meta content="https://github.com/XavierBerger/RPi-Monitor-deb" property="og:url" /><meta content="RPi-Monitor-deb - Debian packaging for RPi-Monitor. RPi-Monitor always keep an eye on your Raspberry Pi and can give you the current status and the history of resources usages in a nice looking and interactive web interface." property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="70D73FA3:73EE:892757:5540267A" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, files#disambiguate" name="analytics-event" />
+    <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta class="js-ga-set" name="dimension2" content="Header v3">
+    <meta name="is-dotcom" content="true">
+    <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="Apblc2skBYCtrCRpKRYLFHiYKb+dK0wHQ1h0ayjFXMwQzEbOlJFQ0wt/2uZM6GsARSxvKcwh9lKSbQ3Zw7DoAw==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-1f4e9d0de938f415dcb176615f029017dbee3475099b06749269c4933a2cb6e2.css" media="all" rel="stylesheet" />
+    <link href="https://assets-cdn.github.com/assets/github2-6e983b6b7d98efc802f5c8dacc0db8239942dbd3937edc7f4345b57df04f4ca2.css" media="all" rel="stylesheet" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="3d684630f439bb6743da1759fc96a170">
+
+      
+  <meta name="description" content="RPi-Monitor-deb - Debian packaging for RPi-Monitor. RPi-Monitor always keep an eye on your Raspberry Pi and can give you the current status and the history of resources usages in a nice looking and interactive web interface.">
+  <meta name="go-import" content="github.com/XavierBerger/RPi-Monitor-deb git https://github.com/XavierBerger/RPi-Monitor-deb.git">
+
+  <meta content="4228268" name="octolytics-dimension-user_id" /><meta content="XavierBerger" name="octolytics-dimension-user_login" /><meta content="9895291" name="octolytics-dimension-repository_id" /><meta content="XavierBerger/RPi-Monitor-deb" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="9895291" name="octolytics-dimension-repository_network_root_id" /><meta content="XavierBerger/RPi-Monitor-deb" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/XavierBerger/RPi-Monitor-deb/commits/master.atom" rel="alternate" title="Recent Commits to RPi-Monitor-deb:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+
+
+        
+        <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2FXavierBerger%2FRPi-Monitor-deb%2Ftree%2Fmaster%2Fpackages" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/XavierBerger/RPi-Monitor-deb/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/XavierBerger/RPi-Monitor-deb/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2FXavierBerger%2FRPi-Monitor-deb"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/XavierBerger/RPi-Monitor-deb/watchers">
+    7
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2FXavierBerger%2FRPi-Monitor-deb"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/XavierBerger/RPi-Monitor-deb/stargazers">
+      31
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2FXavierBerger%2FRPi-Monitor-deb"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/XavierBerger/RPi-Monitor-deb/network" class="social-count">
+        9
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/XavierBerger" class="url fn" itemprop="url" rel="author"><span itemprop="title">XavierBerger</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/XavierBerger/RPi-Monitor-deb" class="js-current-repository" data-pjax="#js-repo-pjax-container">RPi-Monitor-deb</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/XavierBerger/RPi-Monitor-deb/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/XavierBerger/RPi-Monitor-deb" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /XavierBerger/RPi-Monitor-deb">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/XavierBerger/RPi-Monitor-deb/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /XavierBerger/RPi-Monitor-deb/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/XavierBerger/RPi-Monitor-deb/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /XavierBerger/RPi-Monitor-deb/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/XavierBerger/RPi-Monitor-deb/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /XavierBerger/RPi-Monitor-deb/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/XavierBerger/RPi-Monitor-deb/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /XavierBerger/RPi-Monitor-deb/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/XavierBerger/RPi-Monitor-deb.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/XavierBerger/RPi-Monitor-deb" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+  <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a> or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+
+
+                <a href="/XavierBerger/RPi-Monitor-deb/archive/master.zip"
+                   class="btn btn-sm sidebar-button"
+                   aria-label="Download the contents of XavierBerger/RPi-Monitor-deb as a zip file"
+                   title="Download the contents of XavierBerger/RPi-Monitor-deb as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+<div class="file-navigation">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/XavierBerger/RPi-Monitor-deb/tree/devel/packages"
+               data-name="devel"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="devel">
+                devel
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/XavierBerger/RPi-Monitor-deb/tree/master/packages"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.10/packages"
+                 data-name="v2.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.10">v2.10</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.9.1/packages"
+                 data-name="v2.9.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.9.1">v2.9.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.9/packages"
+                 data-name="v2.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.9">v2.9</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.8/packages"
+                 data-name="v2.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.8">v2.8</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.7/packages"
+                 data-name="v2.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.7">v2.7</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.6/packages"
+                 data-name="v2.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.6">v2.6</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.5.1/packages"
+                 data-name="v2.5.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.5.1">v2.5.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.5/packages"
+                 data-name="v2.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.5">v2.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.4/packages"
+                 data-name="v2.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.4">v2.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.3/packages"
+                 data-name="v2.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.3">v2.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.2/packages"
+                 data-name="v2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.2">v2.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.1/packages"
+                 data-name="v2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.1">v2.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v2.0/packages"
+                 data-name="v2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0">v2.0</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v1.5/packages"
+                 data-name="v1.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.5">v1.5</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v1.4/packages"
+                 data-name="v1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.4">v1.4</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v1.3/packages"
+                 data-name="v1.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.3">v1.3</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v1.2/packages"
+                 data-name="v1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.2">v1.2</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v1.1/packages"
+                 data-name="v1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.1">v1.1</a>
+            </div>
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/XavierBerger/RPi-Monitor-deb/tree/v1.0/packages"
+                 data-name="v1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0">v1.0</a>
+            </div>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <div class="btn-group right">
+    <a href="/XavierBerger/RPi-Monitor-deb/find/master" data-pjax data-hotkey="t" class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-s" aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <a href="/XavierBerger/RPi-Monitor-deb/commits/master/packages" class="btn btn-sm empty-icon tooltipped tooltipped-s" aria-label="Browse commits for this branch">
+      <span class="octicon octicon-history"></span>
+    </a>
+  </div>
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/XavierBerger/RPi-Monitor-deb" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">RPi-Monitor-deb</span></a></span></span><span class="separator">/</span><strong class="final-path">packages</strong><span class="separator">/</span>
+    <a class="btn-link disabled tooltipped tooltipped-e" href="#" aria-label="You must be signed in to make or propose changes">
+      <span class="octicon octicon-plus"></span>
+    </a>
+</div>
+
+</div>
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/XavierBerger/RPi-Monitor-deb/commit/b73b6480182b51b1beacf30fca3013252a505b76" class="message" data-pjax="true" title="Merge branch &#39;devel&#39; and generate version 2.10">Merge branch 'devel' and generate version 2.10</a>
+        
+    </p>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link tooltipped tooltipped-s" data-clipboard-text="b73b6480182b51b1beacf30fca3013252a505b76" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/XavierBerger/RPi-Monitor-deb/commit/b73b6480182b51b1beacf30fca3013252a505b76" class="sha-block" data-pjax>latest commit <span class="sha">b73b648018</span></a>
+
+      <div class="authorship">
+        <img alt="@XavierBerger" class="avatar" data-user="4228268" height="20" src="https://avatars1.githubusercontent.com/u/4228268?v=3&amp;s=40" width="20" />
+        <span class="author-name"><a href="/XavierBerger" rel="author">XavierBerger</a></span>
+        authored <time class="updated" datetime="2015-01-06T18:00:55Z" is="relative-time">Jan 6, 2015</time>
+
+      </div>
+    </div>
+  </div>
+
+  
+<div class="file-wrap">
+  <a href="/XavierBerger/RPi-Monitor-deb/tree/b73b6480182b51b1beacf30fca3013252a505b76/packages" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <table class="files" data-pjax>
+      <tr class="up-tree">
+        <td></td>
+        <td><a href="/XavierBerger/RPi-Monitor-deb" rel="nofollow" title="Go to parent directory">..</a></td>
+        <td></td>
+        <td></td>
+      </tr>
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><span class="octicon octicon-alert"></span></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_1.0-1_all.deb" class="js-directory-link" id="5a6fa4dfd6db204c29029cbb08b161c6-43b45b76e42b59d0ae38d54b6b61af2336efe82e" title="rpimonitor_1.0-1_all.deb">rpimonitor_1.0-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/529d0d102fa1e26ea43ec5593252a0b25f377757" class="message" data-pjax="true" title="RPi-Monitor v1.0-1">RPi-Monitor v1.0-1</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-05-08T14:43:22Z" is="time-ago">May 8, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_1.1-1_all.deb" class="js-directory-link" id="5fe2450e9ff5f30c1b50ca0cbff9a893-7f2a1be4a0264d2d5674fe5f0ab9182c28646ad9" title="rpimonitor_1.1-1_all.deb">rpimonitor_1.1-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/96e634c5a7ccd1b82d4677651eae5a6eecd96f24" class="message" data-pjax="true" title="RPi-Monitor v1.1-1">RPi-Monitor v1.1-1</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-05-14T19:11:27Z" is="time-ago">May 14, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_1.2-1_all.deb" class="js-directory-link" id="3bbcf65312ce47816906bcbc9a81ba36-5262df571fe86621094c242f1e01700663a69e1f" title="rpimonitor_1.2-1_all.deb">rpimonitor_1.2-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/2b8a337f449e8cfb183f034fa1c7a139d59d2f1a" class="message" data-pjax="true" title="Version 1.2">Version 1.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-05-19T19:24:10Z" is="time-ago">May 19, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_1.3-1_all.deb" class="js-directory-link" id="9e9d38a228cf5bb6233c6b5c569757d0-e4149d405a98754d0396f362cdc47080368d4295" title="rpimonitor_1.3-1_all.deb">rpimonitor_1.3-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/190552522a8afe7ccfbd7eb92a66619da95fdbd3" class="message" data-pjax="true" title="Version 1.3">Version 1.3</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-05-22T17:29:32Z" is="time-ago">May 22, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_1.4-1_all.deb" class="js-directory-link" id="f59bbf1122d62d70ff08168b0f269c5d-ddfdd7fd0d02b821883fd24d6e8ecdd63eb5473e" title="rpimonitor_1.4-1_all.deb">rpimonitor_1.4-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/aa81b5c1414f081360e82c3378ae20a22fb35465" class="message" data-pjax="true" title="Version 1.4">Version 1.4</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-05-30T17:19:14Z" is="time-ago">May 30, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_1.5-1_all.deb" class="js-directory-link" id="94892dc794b420a078d7d7d272eb281d-45d6598d334ceec752ce91b9a09967aed00d64b8" title="rpimonitor_1.5-1_all.deb">rpimonitor_1.5-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/3730ca6817a775aebc23bcb1c454c943625f8075" class="message" data-pjax="true" title="Version 1.5">Version 1.5</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-06-05T19:54:46Z" is="time-ago">Jun 5, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.0-1_all.deb" class="js-directory-link" id="7a7ef94da336c395d770e4f999e3bff7-f03d1a87e64b63b057495dcb78a75f020232f7ca" title="rpimonitor_2.0-1_all.deb">rpimonitor_2.0-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/890589a70ece21a5959b03cc14cb3bea6d9f0f7c" class="message" data-pjax="true" title="Version 2.0">Version 2.0</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-06-28T20:08:13Z" is="time-ago">Jun 28, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.1-1_all.deb" class="js-directory-link" id="89eb83d49235ad98f22c13dbd54f72ad-fc7fa4351aa9728ee7103ffbdc456a2dad469099" title="rpimonitor_2.1-1_all.deb">rpimonitor_2.1-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/ef931591f492061c1c2591e1baa69081de2608e0" class="message" data-pjax="true" title="Version 2.1">Version 2.1</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-07-09T16:40:22Z" is="time-ago">Jul 9, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.10-1_all.deb" class="js-directory-link" id="7541993e7f5a1223be3faf4a09a4b661-0a6cc7122bf26d183a2e0755f32bbf90f43744e4" title="rpimonitor_2.10-1_all.deb">rpimonitor_2.10-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/b73b6480182b51b1beacf30fca3013252a505b76" class="message" data-pjax="true" title="Merge branch &#39;devel&#39; and generate version 2.10">Merge branch 'devel' and generate version 2.10</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2015-01-06T18:00:55Z" is="time-ago">Jan 6, 2015</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.2-1_all.deb" class="js-directory-link" id="59db494fc35f9e8dd3c3e3f8d90414dd-732e617e7ebc58eb57252f3185745d713de7d888" title="rpimonitor_2.2-1_all.deb">rpimonitor_2.2-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/27fe66f237627473f71d84decb805d7cb63396bb" class="message" data-pjax="true" title="Version 2.2">Version 2.2</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-07-21T18:37:13Z" is="time-ago">Jul 21, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.3-1_all.deb" class="js-directory-link" id="2f9d0848824b3489904e08faa2faa2a8-01f5f64b5493378efc5badfcb177af138874304c" title="rpimonitor_2.3-1_all.deb">rpimonitor_2.3-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/dd2f1d4d32e79a494c73e6b846a50751031291ce" class="message" data-pjax="true" title="Version 2.3">Version 2.3</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-08-18T16:32:59Z" is="time-ago">Aug 18, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.4-1_all.deb" class="js-directory-link" id="4ae9a80499d9ea0fc13d6d8783185c1d-76a5ee482c7aaedfe54e9bd787fc39e97267de74" title="rpimonitor_2.4-1_all.deb">rpimonitor_2.4-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/0099cee196afc8e44c9b7f9eb2d88a9572e5a8e2" class="message" data-pjax="true" title="add libipc-sharelite-perl dependency">add libipc-sharelite-perl dependency</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-09-07T08:42:05Z" is="time-ago">Sep 7, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.5-1_all.deb" class="js-directory-link" id="34dbd3b0dfac7864f4e9e2cc1560c8aa-d9bf883698ad4267f2c6f2f0762770e6d53f2628" title="rpimonitor_2.5-1_all.deb">rpimonitor_2.5-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/c04309f2d0025b66125301fc910527ac24969315" class="message" data-pjax="true" title="Version 2.5">Version 2.5</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-10-15T11:31:51Z" is="time-ago">Oct 15, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.5.1-1_all.deb" class="js-directory-link" id="d8316689c444631b82e2c48b1ce14ec4-4fdb9b792d19f8614279f8b8cc79a273e7de3321" title="rpimonitor_2.5.1-1_all.deb">rpimonitor_2.5.1-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/9db07754460eb8494969ed39614e195dac56df3c" class="message" data-pjax="true" title="VERSION 2.5.1 (bugfix)">VERSION 2.5.1 (bugfix)</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2013-10-21T09:20:31Z" is="time-ago">Oct 21, 2013</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.6-1_all.deb" class="js-directory-link" id="e6d8c64b2ae3d14b2c3b682bae0ef882-441bd650dc203ba160f40f6eae82e39a26502390" title="rpimonitor_2.6-1_all.deb">rpimonitor_2.6-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/df855f09bf4dcb3b1197ec1fd3b9b18e9e30151c" class="message" data-pjax="true" title="Version 2.6">Version 2.6</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-03-16T13:59:50Z" is="time-ago">Mar 16, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.7-1_all.deb" class="js-directory-link" id="87a6b8dc25dee876a4c03ff35a07537b-cc8e79723aece632dbe785484074bf3fb9aa94f6" title="rpimonitor_2.7-1_all.deb">rpimonitor_2.7-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/eeaa619e9606dde7fb504c0f79675fc052bea61d" class="message" data-pjax="true" title="Version 2.7">Version 2.7</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-08-17T09:37:43Z" is="time-ago">Aug 17, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.8-1_all.deb" class="js-directory-link" id="2e2861cfc0953359e4c7c7f8311eef45-d24dc84e31bcbd9bca1fd8f9dc93cef2976af655" title="rpimonitor_2.8-1_all.deb">rpimonitor_2.8-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/3ffcfd4952d54347430b002337b55f85435203ec" class="message" data-pjax="true" title="Add source repository for apt.">Add source repository for apt.</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-09-13T07:51:49Z" is="time-ago">Sep 13, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.9-1_all.deb" class="js-directory-link" id="97b70e3d56068b2a04dcf45d5f4a30f7-d53848c4ee139cf264a1904a254624cdfd81aeed" title="rpimonitor_2.9-1_all.deb">rpimonitor_2.9-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/76b797cfd9de015213d501e6f54ea29bc7117325" class="message" data-pjax="true" title="Fix dependency to devel branch">Fix dependency to devel branch</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-12T19:38:55Z" is="time-ago">Oct 12, 2014</time></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="icon">
+            <span class="octicon octicon-file-text"></span>
+            <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/assets/spinners/octocat-spinner-32-e513294efa576953719e4e2de888dd9cf929b7d62ed8d05f25e731d02452ab6c.gif" width="16" />
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a href="/XavierBerger/RPi-Monitor-deb/blob/master/packages/rpimonitor_2.9.1-1_all.deb" class="js-directory-link" id="92683f9aa46e3430f3e64b8659e950c7-ca5b5074d052ae4d2f3dafd10a4b7641fe63deff" title="rpimonitor_2.9.1-1_all.deb">rpimonitor_2.9.1-1_all.deb</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+              <a href="/XavierBerger/RPi-Monitor-deb/commit/d01737611f1a29ecb17379a61152da58efb674bc" class="message" data-pjax="true" title="Version 2.9.1">Version 2.9.1</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time datetime="2014-10-18T09:38:21Z" is="time-ago">Oct 18, 2014</time></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+  
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.12218s from github-fe131-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-2c8ae50712a47d2b83d740cb875d55cdbbb3fdbccf303951cc6b7e63731e0c38.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-a3a4283724162ff9a3eb89b41735c6a84926cd9fdb03d8ebbe1b692446b6f34e.js"></script>
+      
+      
+
+
+  </body>
+</html>
+

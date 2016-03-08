@@ -1,0 +1,4 @@
+import os
+
+uploadyoutube="/home/pi/youtube-upload-0.7.3/youtube_upload/youtube_upload.py --email=anwarwijaya7@gmail.com --password="rahasia707167"  --title="[Uji Coba]Pintu Mobil Terbuka" --description="uji coba auto upload from raspberry pi untuk TA" --category=other /home/pi/VideoDalamMobil.avi"
+os.system (uploadyoutube)
